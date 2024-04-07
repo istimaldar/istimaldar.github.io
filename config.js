@@ -12,27 +12,27 @@ const CONFIG = {
 
   
 	// General
-	name: 'John',
-	openInNewTab: true,
+	name: 'Kastuś!',
+	openInNewTab: false,
 	twelveHourFormat: false,
-  title: 'Bento',
+	title: 'Bento',
 
 	// Theme
-	theme: 'bento',
+	theme: 'catppuccin',
 	imageBackground: false,
-  imageUrl: './assets/background.jpg', // Set custom background image URL. If the page is served insecurely, you may have issues loading images from pages over https.
+  	imageUrl: './assets/background.jpg', // Set custom background image URL. If the page is served insecurely, you may have issues loading images from pages over https.
 
 	// Greetings
-	greetingMorning: 'Good morning!',
-	greetingAfternoon: 'Good afternoon,',
-	greetingEvening: 'Good evening,',
-	greetingNight: 'Go to Sleep!',
+	greetingMorning: 'Dobraj ranicy,',
+	greetingAfternoon: 'Dobry dzień,',
+	greetingEvening: 'Dobry večar,',
+	greetingNight: 'Dobraj nočy,',
 
 	// Layout
 	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
 
 	// Weather
-	weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
+	weatherKey: 'daeaa97e8ac3723fcc4e2308eb1b542b', // Write here your API Key
 	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
 	weatherUnit: 'C', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
@@ -64,7 +64,7 @@ const CONFIG = {
 			id: '1',
 			name: 'Github',
 			icon: 'github',
-			link: 'https://github.com/',
+			link: 'https://github.com/trending',
 		},
 		{
 			id: '2',
@@ -74,9 +74,9 @@ const CONFIG = {
 		},
 		{
 			id: '3',
-			name: 'Todoist',
-			icon: 'trello',
-			link: 'https://todoist.com',
+			name: 'Habitica',
+			icon: 'notebook-tabs',
+			link: 'https://habitica.com/',
 		},
 		{
 			id: '4',
@@ -92,9 +92,9 @@ const CONFIG = {
 		},
 		{
 			id: '6',
-			name: 'Odysee',
+			name: 'Youtube',
 			icon: 'youtube',
-			link: 'https://odysee.com/',
+			link: 'https://youtube.com/',
 		},
 	],
 
@@ -144,46 +144,42 @@ const CONFIG = {
 	// First Links Container
 	firstlistsContainer: [
 		{
-			icon: 'music',
+			icon: 'home',
 			id: '1',
 			links: [
 				{
-					name: 'Inspirational',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Milestones',
+					link: 'https://centaureasoft.fibery.io/fibery/space/Milestones/database/Quarter',
 				},
 				{
-					name: 'Classic',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Tickets',
+					link: 'https://git.centaurea.io/infra/plan/-/issues',
 				},
 				{
-					name: 'Oldies',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-				},
-				{
-					name: 'Rock',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-				},
+					name: 'Monitor',
+					link: 'https://newrelic.com',
+				}
 			],
 		},
 		{
-			icon: 'coffee',
+			icon: 'spade',
 			id: '2',
 			links: [
 				{
-					name: 'Linkedin',
-					link: 'https://www.linkedin.com',
+					name: 'Jira',
+					link: 'https://services-cloud.atlassian.net/jira/software/c/projects/IT/boards/16',
 				},
 				{
-					name: 'Dribbble',
-					link: 'https://www.dribbble.com',
+					name: 'Bitbucket',
+					link: 'https://bitbucket.org/a5-labs/workspace/overview/',
 				},
 				{
-					name: 'Trello',
-					link: 'https://www.trello.com',
+					name: 'Confluence',
+					link: 'https://services-cloud.atlassian.net/wiki/home',
 				},
 				{
-					name: 'Slack',
-					link: 'https://www.slack.com',
+					name: 'Teamcity',
+					link: 'https://teamcity.devops.a5-labs-cloud.com/',
 				},
 			],
 		},
